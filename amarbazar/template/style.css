@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+}
+h2{
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.headerright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerright a{
+    font-size: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: green;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    background-color: green;
+    height: 50px;
+}
+.maincontent{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 250px;
+    height:auto;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card img{
+    width: 100%;
+    max-width: 29rem;
+    height: 200px;
+}
+.cardfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.price{
+    font-size: 20px;
+}
+
